@@ -1,0 +1,11 @@
+[project]
+name = "clarifai-codes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "clarifai>=11.5.2",
+    "openai>=1.86.0",
+    "python-dotenv>=1.1.0",
+]
