@@ -15,7 +15,7 @@ else:
 model = Model(url="https://clarifai.com/meta/Llama-3/models/Llama-3_2-3B-Instruct")
 
 response_stream = model.generate(
-    prompt="What is the future of AI?"
+    prompt="What are the limitations of AI"
 )
 
 for text_chunk in response_stream:
